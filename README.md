@@ -27,7 +27,7 @@ _If you run into any issues, please feel free to make changes and create your ow
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, JavaScript & JQuery were used to create this web page. Try selecting 'none of the above' and see the additional class that is entered for some humor_
+_HTML, CSS, Bootstrap, JavaScript & JQuery were used to create this web page. Try selecting 'none of the above' for each answer to see an additional class. Try selecting no answer in one of the drop down boxes to receive error 'please select an answer'_
 
 ### License
 
