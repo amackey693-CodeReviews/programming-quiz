@@ -26,6 +26,11 @@
   display: none; 
 }
 
+.excited {
+  font-style: italic;
+  color: ;
+}
+
 #ruby {
   display: none;
 }
@@ -56,16 +61,31 @@ img {
   height:50%;
   width: 50%;
 }
-/* 
-@media (max width:400px) and (min width: 200px) {
+
+@media (max-width:400px) {
   .well {
     width: 50%;
     height: auto;
+    float: center;
+    margin-left: 100px;
   }
 
   img {
-    width: 30%;
-    height: 30%;
+    width: 75%;
+    height: 75%;
   }
 
-} */
+  h1 {
+    font-size: 18px;
+
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+}
