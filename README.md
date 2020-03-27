@@ -10,7 +10,7 @@ _Answer a few questions and find out which programming language you should be st
 
 ## Setup/Installation Requirements
 
-* _View Site on gh-pages here: https://amackey693.io/Week2CodeReview_
+* _View Site on gh-pages here: https://amackey693.github.io/Week2CodeReview/_
 * _Clone Repository from GitHub : https://github.com/amackey693/Week2CodeReview_
 * _Open Index.html in Virtual Studio Code (or your text editor of choice)_
 * _Create your own repository and push new changes to GitHub_
