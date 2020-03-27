@@ -8,6 +8,11 @@ $(document).ready(function() {
     var favColor = parseInt($("#favColor").val());
     var result = (fridayNight + favActivity + favTvShow + favColor);
 
+    console.log(fridayNight)
+    console.log(favActivity)
+    console.log(favTvShow)
+    console.log(favColor)
+
     if (fridayNight === 0 || favActivity === 0 || favTvShow === 0 || favColor === 0) {
       $(".blank").hide();
       $(".autoSelect").show();
@@ -25,15 +30,11 @@ $(document).ready(function() {
       $(".results").show();
       $("#java").show();
       $("#ruby", "#go","#bianary").hide();
-    } else if (result > 13) 
+    } else if (result > 13) {
       $(".results").show();
       $("#bianary").show();
       $("#ruby", "#go", "#java").hide(); 
     };
-
-  return (result)
+   return (result)
   })
-
-
-
 });
