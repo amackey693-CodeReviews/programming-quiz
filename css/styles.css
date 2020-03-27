@@ -23,7 +23,7 @@
 }
 
 .autoSelect {
-  display: no
+  display: none
 }
 
 .excited {
@@ -46,6 +46,10 @@
 
 #bianary {
   display: none;
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {

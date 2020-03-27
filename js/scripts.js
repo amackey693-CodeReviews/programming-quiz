@@ -32,7 +32,7 @@ $(document).ready(function() {
       $("#ruby", "#java","#bianary").hide();
     } else if (result <= 29) {
       $(".results").show();
-      $("#java").show();
+      $("#java").slideToggle();
       $("#ruby", "#go","#bianary").hide();
     } else if (result > 30) {
       $(".results").show();
