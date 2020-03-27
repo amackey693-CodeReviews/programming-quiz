@@ -19,6 +19,10 @@
 
 }
 
+.autoSelect {
+  display: none; 
+}
+
 #ruby {
   display: none;
 }
@@ -29,5 +33,9 @@
 }
 
 #java {
+  display: none;
+}
+
+#bianary {
   display: none;
 }
