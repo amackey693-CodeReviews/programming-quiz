@@ -2,17 +2,20 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     
+    var enterNameInput = $("input#enterName").val();
+    $ (".name").text(enterNameInput);
+
     var fridayNight = parseInt($("#fridayNight").val());
     var favActivity = parseInt($("#favActivity").val());
     var favTvShow = parseInt($("#favTvShow").val());
     var favColor = parseInt($("#favColor").val());
     var result = (fridayNight + favActivity + favTvShow + favColor);
 
-    console.log(fridayNight) 
-    console.log(favActivity)
-    console.log(favTvShow)
-    console.log(favColor)
-    console.log(result)
+    // console.log(fridayNight) 
+    // console.log(favActivity)
+    // console.log(favTvShow)
+    // console.log(favColor)
+    // console.log(result)
 
     if (fridayNight === 0 || favActivity === 0 || favTvShow === 0 || favColor === 0) {
       $(".blank").hide();
