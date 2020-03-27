@@ -24,11 +24,11 @@ $(document).ready(function() {
       $(".results").hide();
     } else if (result <=6) {
       $(".results").show();
-      $("#ruby").show();
+      $("#ruby").slideToggle();
       $("#go", "#java","#bianary").hide();
     } else if (result <=14) {
       $(".results").show();
-      $("#go").show();
+      $("#go").slideToggle();
       $("#ruby", "#java","#bianary").hide();
     } else if (result <= 29) {
       $(".results").show();
@@ -37,7 +37,7 @@ $(document).ready(function() {
     } else if (result > 30) {
       $(".results").show();
       $("#ruby", "#go", "#java").hide();
-      $("#bianary").show();
+      $("#bianary").slideToggle();
     };
    return (result)
   })
