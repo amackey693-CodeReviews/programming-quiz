@@ -19,7 +19,7 @@ $(document).ready(function() {
       $(".autoSelect").show();
       $(".autoSelect").attr("selected", "selected")
       $(".results").hide();
-    } else if (result <=7) {
+    } else if (result <=6) {
       $(".results").show();
       $("#ruby").show();
       $("#go", "#java","#bianary").hide();
