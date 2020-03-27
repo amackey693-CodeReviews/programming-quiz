@@ -9,6 +9,14 @@
 
 .results {
   display: none;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+
 }
 
 #ruby {
