@@ -36,5 +36,5 @@ $(document).ready(function() {
       $("#ruby", "#go", "#java").hide(); 
     };
    return (result)
-  })
+  }
 });

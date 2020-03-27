@@ -1,22 +1,25 @@
 .container {
   padding: 50px;
   background-color: #5d7062;
+  margin-left: inherit;
 }
 
 .body {
   background-color: #5d7062;
+
+}
+
+.form-horizontal {
+  padding: 15px;
+}
+
+.btn {
+  margin-top: 15px;
 }
 
 .results {
   display: none;
-  align-items: center;
-}
-
-.btn {
-  margin-top: 25px;
-  background-color: black;
-  color: white;
-
+  text-align: center;
 }
 
 .autoSelect {
@@ -38,4 +41,13 @@
 
 #bianary {
   display: none;
+}
+
+h2 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
