@@ -11,6 +11,7 @@ $(document).ready(function() {
     var favColor = parseInt($("#favColor").val());
     var result = (fridayNight + favActivity + favTvShow + favColor);
 
+    // console.log(enterNameInput)
     // console.log(fridayNight) 
     // console.log(favActivity)
     // console.log(favTvShow)
@@ -24,22 +25,21 @@ $(document).ready(function() {
       $(".results").hide();
     } else if (result <=6) {
       $(".results").show();
-      $("#ruby").show();
+      $("#ruby").slideToggle();
       $("#go", "#java","#bianary").hide();
     } else if (result <=14) {
       $(".results").show();
-      $("#go").show();
+      $("#go").slideToggle();
       $("#ruby", "#java","#bianary").hide();
     } else if (result <= 29) {
       $(".results").show();
-      $("#java").show();
+      $("#java").slideToggle();
       $("#ruby", "#go","#bianary").hide();
     } else if (result > 30) {
       $(".results").show();
       $("#ruby", "#go", "#java").hide();
-      $("#bianary").show();
+      $("#bianary").slideToggle();
     };
    return (result)
   })
-
 });
