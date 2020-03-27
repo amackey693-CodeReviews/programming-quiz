@@ -10,8 +10,8 @@ _Answer a few questions and find out which programming language you should be st
 
 ## Setup/Installation Requirements
 
-* _View Site on gh-pages here: https://amackey693.io/Week2CodeReview
-* _Clone Repository from GitHub : https://github.com/amackey693/Week2CodeReview
+* _View Site on gh-pages here: https://amackey693.github.io/Week2CodeReview/_
+* _Clone Repository from GitHub : https://github.com/amackey693/Week2CodeReview_
 * _Open Index.html in Virtual Studio Code (or your text editor of choice)_
 * _Create your own repository and push new changes to GitHub_
 * _This is a local file, so you will not need to run a server to view it._
@@ -27,7 +27,7 @@ _If you run into any issues, please feel free to make changes and create your ow
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, JavaScript & JQuery were used to create this web page. (ADD MORE LATER) _
+_HTML, CSS, Bootstrap, JavaScript & JQuery were used to create this web page._
 
 ### License
 
