@@ -5,5 +5,21 @@
 
 .body {
   background-color: #5d7062;
+}
 
+.results {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#go {
+  display: none;
+
+}
+
+#java {
+  display: none;
 }
