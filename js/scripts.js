@@ -1,40 +1,42 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
-
+    
     var fridayNight = parseInt($("#fridayNight").val());
     var favActivity = parseInt($("#favActivity").val());
     var favTvShow = parseInt($("#favTvShow").val());
     var favColor = parseInt($("#favColor").val());
     var result = (fridayNight + favActivity + favTvShow + favColor);
 
-    console.log(fridayNight)
+    console.log(fridayNight) 
     console.log(favActivity)
     console.log(favTvShow)
     console.log(favColor)
+    console.log(result)
 
     if (fridayNight === 0 || favActivity === 0 || favTvShow === 0 || favColor === 0) {
       $(".blank").hide();
       $(".autoSelect").show();
       $(".autoSelect").attr("selected", "selected")
       $(".results").hide();
-    } else if (result <=4) {
+    } else if (result <=7) {
       $(".results").show();
       $("#ruby").show();
       $("#go", "#java","#bianary").hide();
-    } else if (result <=8) {
+    } else if (result <=14) {
       $(".results").show();
       $("#go").show();
       $("#ruby", "#java","#bianary").hide();
-    } else if (result <=12) {
+    } else if (result <= 29) {
       $(".results").show();
       $("#java").show();
       $("#ruby", "#go","#bianary").hide();
-    } else if (result > 13) {
+    } else if (result > 30) {
       $(".results").show();
+      $("#ruby", "#go", "#java").hide();
       $("#bianary").show();
-      $("#ruby", "#go", "#java").hide(); 
     };
    return (result)
   })
+
 });
