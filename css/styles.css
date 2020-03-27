@@ -28,7 +28,7 @@
 
 .excited {
   font-style: italic;
-  color: ;
+  color:rgb(66, 129, 66);
 }
 
 #ruby {
@@ -69,7 +69,7 @@ img {
     float: center;
     margin-left: 100px;
   }
-
+  
   img {
     width: 75%;
     height: 75%;

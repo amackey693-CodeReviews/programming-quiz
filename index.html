@@ -14,9 +14,13 @@
 
         <h2>Find Out Which Language You Should Be Learning:</h2>
         <h4>Tired of guessing which language you should be focusing on? We've got the quiz for you. Just answer a few different questions and we'll have your path dialed in!</h4>
-        <h4>Best of luck to you!</h4>   
+        <h4>Best of luck to you!</h4> 
+        </form> 
         <form class ="form-horizontal" id="quiz">
-          <label for="fridayNight">What does your typical Friday evening look like?</label>
+          <ol>
+            <label for="enterName">Enter Your Name: </label>
+            <input id="enterName" class="form-control" type="text">
+            <li><label for="fridayNight">What does your typical Friday evening look like?</label></li>
             <select class="form-control" id="fridayNight">
               <option class = "blank" value=0></option>
               <option class = "autoSelect" value=0>Please select an answer</option>
@@ -27,37 +31,37 @@
               <option value="10">None of the above</option>
             </select>
 
-          <label for="favActivity">What's one of your favorite activities?</label>
-            <select class="form-control" id="favActivity">
+            <li><label for="favActivity">What's one of your favorite activities?</label></li>
+              <select class="form-control" id="favActivity">
+                <option class = "blank" value=0></option>
+                <option class = "autoSelect" value=0>Please select an answer</option>
+                <option value=1>Staying at home, why would I leave my house?</option>
+                <option value=2>Catching up on all of my favorite TV shows</option>
+                <option value=3>Getting outside: Hiking, going for a walk, biking, you name it!</option>
+                <option value=4>Playing my favorite video games for hours</option> 
+                <option value="10">None of the above</option>
+              </select>
+            <li><label for="favTvShow">What's your favorite TV Show?</label></li>
+            <select class="form-control" id="favTvShow">
               <option class = "blank" value=0></option>
               <option class = "autoSelect" value=0>Please select an answer</option>
-              <option value=1>Staying at home, why would I leave my house?</option>
-              <option value=2>Catching up on all of my favorite TV shows</option>
-              <option value=3>Getting outside: Hiking, going for a walk, biking, you name it!</option>
-              <option value=4>Playing my favorite video games for hours</option> 
+              <option value=1>I don't watch TV</option>
+              <option value=2>Friends</option>
+              <option value=3>Anything Marvel</option> 
+              <option value=4>Game of Thrones</option>
               <option value="10">None of the above</option>
             </select>
-          <label for="favTvShow">What's your favorite TV Show?</label>
-          <select class="form-control" id="favTvShow">
-            <option class = "blank" value=0></option>
-            <option class = "autoSelect" value=0>Please select an answer</option>
-            <option value=1>I don't watch TV</option>
-            <option value=2>Friends</option>
-            <option value=3>Anything Marvel</option> 
-            <option value=4>Game of Thrones</option>
-            <option value="10">None of the above</option>
-          </select>
-          <label for="favColor">What's your favorite color?</label>
-          <select class="form-control" id="favColor">
-            <option class = "blank" value=0></option>
-            <option class = "autoSelect" value=0>Please select an answer</option>
-            <option value=1>Yellow</option>
-            <option value=2>Blue</option>
-            <option value=3>Red</option> 
-            <option value=4>I prefer shades, specifically different variations of black & white</option>
-            <option value="10">None of the above</option>
-          </select>
-
+            <li><label for="favColor">What's your favorite color?</label></li>
+            <select class="form-control" id="favColor">
+              <option class = "blank" value=0></option>
+              <option class = "autoSelect" value=0>Please select an answer</option>
+              <option value=1>Yellow</option>
+              <option value=2>Blue</option>
+              <option value=3>Red</option> 
+              <option value=4>I prefer shades, specifically different variations of black & white</option>
+              <option value="10">None of the above</option>
+            </select>
+          </ol>
           <button type="submit" class="btn">Your Future Is Waiting!</button>
         </form>  
       </div>  
@@ -65,8 +69,8 @@
         <div class = "well">
           <div id ="ruby">
             <img src="img/ruby.gif" alt="ruby-gif">
-            <h2>Congratulations!</h2> 
-            <p>Your Programming Language is <strong>Ruby on Rails!</strong> Did you know that, as of 2020, Ruby on Rails is used by 1.8 <em>million</em> companies? It's used by a lot of major tech companies and it's supported by over <span class ="excite">40 million developers!</span></p>
+            <h2>Congratulations, <span class="name"> </span>!</h2> 
+            <p>Your Programming Language is <strong>Ruby on Rails!</strong> Did you know that, as of 2020, Ruby on Rails is used by 1.8 <em>million</em> companies? It's used by a lot of major tech companies and it's supported by over <span class ="excited">40 million developers!</span></p>
               <ul>
                 <li>Rails was created in 2003 by David Heinemeir Hansson</li>
                 <li>Ruby was created by Yukihiro Matsumoto in 1995</li>
@@ -79,8 +83,8 @@
 
           <div id="go">
             <img src="/img/go.gif" alt="go gif">
-            <h2>Congratulations! </h2> 
-            <p>Your Programming Language is <strong>GO!</strong> Did yo know that Go Language is the 15th most popular coding language used today? It's been compared to Python and will only continue to rise on the charts!</p>
+            <h2>Congratulations, <span class="name"> </span>! </h2> 
+            <p>Your Programming Language is <strong>GO!</strong> Did yo know that Go Language is the <span class="excited">15th most popular coding language used today?</span> It's been compared to Python and will only continue to rise on the charts!</p>
               <ul>
                 <li>GO was developed in 2007 but wasn't launched as an open source language until 2009.</li>
                 <li>It was developed by Robert Griesemer, Rob Pike & Ken Thompson at Google</li>
@@ -92,7 +96,7 @@
 
           <div id ="java">
             <img src= "img/javascript.gif" alt="JS gif">
-            <h2>Congratulations!</h2> 
+            <h2>Congratulations, <span class="name"> </span>!</h2> 
             <p>Your Programming Language is <strong>JavaScript!</strong></p>
             <p>Did you know that JavaScript is used by almost <em>95%</em> of all websites that are used today? You'll never be out of a job if you learn how to program using JavaScript!</p>
               <ul>
@@ -108,7 +112,7 @@
             <img src= "img/oops.gif" alt="bianary gif">
             <h2>Yikes!</h2> 
             <p>AKA:<a href="https://lingojam.com/BinaryTranslator">0111100101101001011010110110010101110011</a></p>
-            <p>Looks like you chose <span class="excite">"None of the above"</span> almost every time! We would suggest you learn <strong>Bianary Code</strong> since you've got the social skills of a computer!</p>
+            <p>Looks like you chose <span class="excited">"None of the above"</span> almost every time! We would suggest you learn <strong>Bianary Code</strong> since you've got the social skills of a computer!</p>
             <p>You scored high, but you should probably look into low-level programming. <em>(don't worry, it's not a bad thing!)</em></p>
             <p>Learn more about your programming language <a href="https://www.javascript.com/">here!</a></p>
           </div>
