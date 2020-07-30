@@ -1,4 +1,5 @@
 # _Programming Quiz_
+Epicodus - Week 2 Code Review 
 
 #### _A Web Page to Practice Using JavaScript & JQuery, 3/27/2020_
 
@@ -10,8 +11,8 @@ _Answer a few questions and find out which programming language you should be st
 
 ## Setup/Installation Requirements
 
-* _View Site on gh-pages here: https://amackey693.github.io/Week2CodeReview/_
-* _Clone Repository from GitHub : https://github.com/amackey693/Week2CodeReview_
+* _View Site on gh-pages here: https://amackey693.github.io/programming-quiz/_
+* _Clone Repository from GitHub : https://github.com/amackey693/programming-quiz_
 * _Open Index.html in Virtual Studio Code (or your text editor of choice)_
 * _Create your own repository and push new changes to GitHub_
 * _This is a local file, so you will not need to run a server to view it._
